@@ -405,7 +405,7 @@
     }
     .history__title{
         font-size: 48px;
-        line-height: 62px;
+        line-height: 48px;
         color: #fff;
     }
     .history__subtitle{
@@ -578,7 +578,7 @@
             max-width: none;
             width: 60%;
             & + .product__colom{
-                margin-top: 30px;
+                margin-top: 35px;
             }
             .product__colom-title{
                 width: auto;
@@ -1047,12 +1047,20 @@
 }
 
 @media screen and (max-width: 396px) {
-    .reservation__btn {
-        font-size: 15px;
-        padding: 8px 0;
-    }
     .reservation__title{
         font-size: 35px;
         line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .reservation__btn{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .reservation__content{
+        padding: 42px;
     }
 }
