@@ -1,6 +1,3 @@
-$(function(){
-})
-
 function scrollToDiv(element,navheight){
     const offset = element.offset();
     const offsetTop = offset.top; 

@@ -28,14 +28,14 @@
                             <li><a href="#reservation" class="menu__link">Reservation</a></li>
                         </ul>
                     </nav>
-                    <a href="#" class="logo">
+                    <a href="#hero" class="logo">
                         <img src="img/Logo.png" alt="logo">
                     </a>
                     <nav class="options note">
                         <ul class="menu__list">
                             <li><a href="#pages" class="menu__link">Pages</a></li>
                             <li><a href="#shop" class="menu__link">Shop</a></li>
-                            <li><a href="#" class="menu__link">News</a></li>
+                            <li><a href="#news" class="menu__link">News</a></li>
                             <li><a href="#" class="options__btn"><img src="img/search.svg" alt="Search.icon"></a></li>
                             <li><a href="#" class="options__link"><img src="img/basket.svg" alt="basket.icon"></a></li>
                         </ul>
@@ -55,7 +55,7 @@
                             <li><a href="#reservation" class="menu__link burger__link">Reservation</a></li>
                             <li><a href="#pages" class="menu__link burger__link">Pages</a></li>
                             <li><a href="#shop" class="menu__link burger__link">Shop</a></li>
-                            <li><a href="#" class="menu__link burger__link">News</a></li>
+                            <li><a href="#news" class="menu__link burger__link">News</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -67,7 +67,7 @@
                     <input type="search" name="search-form" class="search-form__input" placeholder="Search">
                 </form>
                 <div class="hero__body">
-                    <div class="about">
+                    <div class="about animate__animated animate__fadeInLeft">
                         <h1 class="hero__title">Enjoy Your Morning Coffee.</h1>
                         <p class="hero__subtitle">The coofee is brewed by fist roasting the green coffee beans over hot coals in brazier. given to Opportunity</p>
                         <a href="#" class="btn">Test Coffee</a>
@@ -81,7 +81,7 @@
     </section>
     <srction class="history" id="history">
         <div class="container">
-            <div class="history__header">
+            <div class="history__header animate__animated animate__fadeInUp wow">
                 <div class="history__item">
                     <h2 class="history__title"><span>01</span>Best Coffee Flavour</h2>
                     <img src="img/coffe1.jpg" alt="coffe-background" class="history__img">
@@ -95,7 +95,7 @@
                     <img src="img/coffe3.jpg" alt="coffe-background" class="history__img">
                 </div>
             </div>
-            <div class="history__footer">
+            <div class="history__footer animate__animated animate__fadeInUp wow">
                 <div class="history__left">
                     <div class="history__items">
                         <img src="img/coffe5.jpg" alt="coffe-background">
@@ -125,7 +125,7 @@
             <p class="product__subtitle comment">Popular Product</p>
             <h2 class="title">Coffee popular Product</h2>
             <div class="product__row">
-                <div class="product__colom">
+                <div data-wow-delay="0.3s" class="product__colom animate__animated wow animate__fadeInLeft">
                     <div class="product__content">
                         <img src="img/product.jpg" alt="product-img">
                         <div class="product__about">
@@ -134,7 +134,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="product__colom">
+                <div data-wow-delay="0.4s" class="product__colom animate__animated wow animate__fadeInLeft">
                     <div class="product__content">
                         <img src="img/product.jpg" alt="product-img">
                         <div class="product__about product__about_stras">
@@ -147,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="product__colom">
+                <div data-wow-delay="0.5s" class="product__colom animate__animated wow animate__fadeInLeft">
                     <div class="product__content">
                         <img src="img/product.jpg" alt="product-img">
                         <div class="product__about product__about_stras">
@@ -167,8 +167,8 @@
     <section class="pages" id="pages">
         <div class="container">
             <div class="pages__body">
-                <img src="img/removebg.png" alt="desktop__img" class="pages__desktop">
-                <div class="pages__about">
+                <img src="img/removebg.png" alt="desktop__img" class="pages__desktop animate__animated wow animate__fadeInLeft">
+                <div class="pages__about animate__animated wow animate__fadeInRight">
                     <h2 class="pages__title title">Coffee <br> machine, buy for home</h2>
                     <p class="pages__subtitle">
                         mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula
@@ -181,7 +181,7 @@
             </div>
         </div>
     </section>
-    <section class="menu" id="menu">
+    <section class="menu animate__animated animate__fadeInUp wow" id="menu">
         <div class="container">
             <p class="menu__comment comment">Menu</p>
             <h2 class="menu__title title">Coffee popular menu</h2>
@@ -238,7 +238,7 @@
             <p class="testimonial__comment comment">Testimonial</p>
             <h2 class="testimonial__title title">Says our customers</h2>
             <div class="testimonial__slider">
-                <div class="testimonial__slide">
+                <div data-wow-delay="0.2s" class="testimonial__slide animate__animated wow animate__fadeInLeft">
                     <div class="testimonial__info">
                         <img src="img/ava.jpg" alt="avatarka.img" class="testimonial__avatarka">
                         <div class="testimonial__name">
@@ -251,7 +251,7 @@
                         <img src="img/star.svg" alt="stars 10/10" class="testimonial__stars">
                     </div>
                 </div>
-                <div class="testimonial__slide">
+                <div data-wow-delay="0.4s" class="testimonial__slide animate__animated wow animate__fadeInLeft">
                     <div class="testimonial__info">
                         <img src="img/ava2.jpg" alt="avatarka.img" class="testimonial__avatarka">
                         <div class="testimonial__name">
@@ -267,7 +267,7 @@
             </div>
         </div>
     </section>
-    <section class="reservation" id="reservation">
+    <section class="reservation animate__animated wow animate__fadeInUp" id="reservation">
         <div class="container">
             <div class="reservation__body">
                 <div class="reservation__content">
@@ -283,6 +283,80 @@
             </div>
         </div>
     </section>
+    <section class="news" id="news">
+        <div class="container">
+            <p class="news__comment comment">Testimonial</p>
+            <h2 class="news__title title">Our latest news</h2>
+            <div class="news__content">
+                <div data-wow-delay="0.2s" class="news__colom animate__animated wow animate__fadeInLeft">
+                    <img src="img/coffe6.jpg" alt="coffee-img" class="news__coffee">
+                    <div class="news__about">
+                        <div class="news__data">
+                            <div class="news__by">
+                                <p><span>By:</span> rasaline</p>
+                            </div>
+                            <p class="news__time">23.01.2021</p>
+                        </div>
+                        <h3 class="news__name">Ideal cocktails from barmen....</h3>
+                        <a href="#" class="news__more">Read More</a>
+                    </div>
+                </div>
+                <div data-wow-delay="0.3s" class="news__colom news__colom_pad animate__animated wow animate__fadeInLeft">
+                    <img src="img/coffe6.jpg" alt="coffee-img" class="news__coffee">
+                    <div class="news__about">
+                        <div class="news__data">
+                            <div class="news__by">
+                                <p><span>By:</span> rasaline</p>
+                            </div>
+                            <p class="news__time">23.01.2021</p>
+                        </div>
+                        <h3 class="news__name">Ideal cocktails from barmen....</h3>
+                        <a href="#" class="news__more">Read More</a>
+                    </div>
+                </div>
+                <div data-wow-delay="0.4s" class="news__colom animate__animated wow animate__fadeInLeft">
+                    <img src="img/coffe6.jpg" alt="coffee-img" class="news__coffee">
+                    <div class="news__about">
+                        <div class="news__data">
+                            <div class="news__by">
+                                <p><span>By:</span> rasaline</p>
+                            </div>
+                            <p class="news__time">23.01.2021</p>
+                        </div>
+                        <h3 class="news__name">Ideal cocktails from barmen....</h3>
+                        <a href="#" class="news__more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <a href="#hero" class="logo">
+                    <img src="img/Logo.png" alt="logo">
+                </a>
+                <nav class="menu note menu_none">
+                    <ul class="menu__list">
+                        <li><a href="#" class="menu__link">Home</a></li>
+                        <li><a href="#" class="menu__link">Rerervation</a></li>
+                        <li><a href="#" class="menu__link">Menu</a></li>
+                        <li><a href="#" class="menu__link">About</a></li>
+                        <li><a href="#" class="menu__link">Pages</a></li>
+                        <li><a href="#" class="menu__link">Shop</a></li>
+                        <li><a href="#" class="menu__link">Blogs</a></li>
+                    </ul>
+                </nav>
+                <form action="#" class="footer__form" id="footer__form">
+                    <input required type="email" placeholder="Enter your email" class="footer__email">
+                    <button class="footer__btn" type="submit" form="footer__form"><img src="img/arrow-right.svg" alt="arrow"></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__text">
+            <p>e-Tennis © 2021. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
