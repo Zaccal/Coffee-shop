@@ -1,30 +1,21 @@
 function scrollToDiv(element,navheight){
-    const offset = element.offset();
-    const offsetTop = offset.top; 
-    const totalScroll = offsetTop-navheight;
+    const offset = element.offset()
+    const offsetTop = offset.top
+    const totalScroll = offsetTop-navheight
     
     $('body,html').animate({
     scrollTop: totalScroll
-    }, 500); 
+    }, 500)
     }
     
-    $('nav ul li a').click(function(){ 
-    const el = $(this).attr('href');
-    const elWrapped = $(el);
-    const offsetTop = 90; 
-    scrollToDiv(elWrapped, offsetTop); 
+    $('nav ul li a').click(function(){
+    const el = $(this).attr('href')
+    const elWrapped = $(el)
+    const offsetTop = 90
+    scrollToDiv(elWrapped, offsetTop) 
     
-    return false;
+    return false
 })
-
-$(document).bind( 'mousewheel', function (e) { 
-    const nt = $(document.body).scrollTop()-(e.deltaY*e.deltaFactor*100); 
-    e.preventDefault(); 
-    e.stopPropagation(); 
-    $(document.body).stop().animate( { 
-         scrollTop : nt 
-     } , 500 , 'easeInOutCubic' );  
-} )
 
 const searchBtn = document.querySelectorAll('.options__btn')
 const searchForm = document.querySelector('.search-form')
