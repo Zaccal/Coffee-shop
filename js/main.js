@@ -17,7 +17,7 @@ function scrollToDiv(element,navheight){
     return false
 })
 
-const searchBtn = document.querySelectorAll('.options__btn')
+const searchBtn = document.querySelectorAll('.search_btn')
 const searchForm = document.querySelector('.search-form')
 
 searchBtn.forEach(function(item) {
